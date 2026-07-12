@@ -1,0 +1,141 @@
+Git :- https://docs.chaicode.com/youtube/chai-aur-git/introduction/
+
+
+stageing area :- area b/w current code base and repository.
+
+Working Directory  --->  Staging Area  --->  Repository
+      |                    |                  |
+   Edit Files           git add          git commit
+
+
+
+1.For unstage the file :--
+git rm --cached first.txt 
+
+
+2.For seeing commit history :- run this after commit.
+git log
+git log --online :- for one line msg.
+
+
+3. Atomic work :-
+git say do commit after atomic work means one unit of work like after one feature created.
+but there are no such rule.
+
+4. if we forget to add commit msg then automatically ...
+Vim is open because Git is using Vim as the default editor for commit messages.
+
+then we install 
+Configure Git to use another editor.
+
+command is :
+git config --global core.editor "code --wait"
+
+5.  gitkey :- do not track empty files that why I add this for tracking.
+
+
+6. Git internals
+
+commit behind the scene.. :- not important
+
+7. New-Item example2.txt      :- for adding a file.
+
+8. git branch :- for seeing the current branch basically where you are.
+
+9. git branch branchname :- for creating new branch.
+
+10. git switch branchname :- for switching the branch :- and now head pointing to this command.
+
+11. for creating the branch and switch same time then use command :- git switch -c branch-name-you-want-to-create.
+
+12. git checkout branch-name-for-switching. :-for switching the branch work similarly as git switch.
+
+13.Before Git 2.23, checkout did too many jobs.
+
+git checkout branch-name      # switch branch
+git checkout file.txt         # restore file
+git checkout commit-id        # detached HEAD  :- direct switch to the given-id branch.
+
+
+14. git checkout first.txt :- for undo the changes in the file.
+
+15. for merge the particular branch to the main branch :- git merge branch-name.
+
+16. git merge --abort :- ignore the merge
+
+17. if 2 branch have same file and we merge the both files the conflict is happen then conflict resolve manually, then simply commit the changes.
+
+18. rename the branch name 
+git branch -m <old branch name> <new branch name>
+
+19. delete the branch
+git branch -d <branch-name>
+
+20. git diff :- informative command , it tells about difference between 2 things.
+
+21. git diff --staged :- tell diff b/w staging area.
+ git diff branch1name branch2name
+
+22. git stash :- 
+if we work on a particular branch and want to switch on different branch then we use stash :- is temporary save your changes.
+
+we save by giving name also. :-
+git stash save "work in progress"
+
+23. git stash apply
+used to move data from stash to working branch.
+
+24. git stash pop :- by using this stash is applied and remove it from the stash.
+
+25. git stash clear 
+use for clear the stash 
+
+26. git tag :- this is sticky notes.
+Tags are a way to mark a specific point in your repository.
+
+command :- git tag <message>
+
+27. when you want to create a tag with message.(creates an annotate tag Wit the specified name and message.)
+
+command :- git tag -a <tag-name> -m "release 1.0"
+
+28. see all the tag :- git tag
+
+29. tagging specific commit 
+git tag <tag-name> <commit-hash code>
+
+
+30. Rebase in git
+when we take out something from main branch to current working branch then one merge commit message created. but we want to not create a commit msg for this then we use rebase.
+
+rebase is use in sub branch not in main branch
+
+command : git rebase main
+
+31. git reflog
+Git reflog is a command that shows you the history of your commits. It allows you to see the changes that you have made to your repository over time. This can be useful for debugging and understanding the history of your project.
+
+32. git reset
+git reset is used to move the current branch (HEAD) to another commit. 
+
+Soft → Undo commit only.
+Mixed → Undo commit + unstage files.
+Hard → Undo commit + delete changes completely.
+
+git reset --soft HEAD~1
+git reset --mixed HEAD~1
+git reset --hard HEAD~1
+git reset file. txt
+
+
+
+GITHUB :---
+
+1. GitHub is a web based git repository hosting service.
+
+some other alternative of GitHub are :-
+Gitlab, Bitbucket, Azure Repos , Gitea
+ 
+ 
+
+ 
