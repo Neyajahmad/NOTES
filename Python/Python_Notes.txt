@@ -1,0 +1,3 @@
+Python notes :-
+
+1. print("Neyaj Ahmad");
