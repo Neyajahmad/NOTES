@@ -35,15 +35,15 @@ Array
 	◦	Remove duplicates from sorted array
 	◦	Best Time to Buy & Sell Stock
 	◦	Maximum Subarray (Kadane’s Algorithm)
-	◦	 Find the subarray with a given sum
-	◦	 Rotate an array by k positions
+	◦	Find the subarray with a given sum
+	◦	Rotate an array by k positions
 	◦	Find the second largest element in an array.
-	◦	 Find the maximum and minimum element in an array.
+	◦	Find the maximum and minimum element in an array.
 
 Strings
 	◦	 Count vowels and consonants in a string.
-	◦	Remove duplicates from a string.
-	◦	Check if two strings are anagrams.
+	◦	 Remove duplicates from a string.
+	◦	 Check if two strings are anagrams.
 	◦	 Check if two strings are rotations of each other.
 	◦	 Implement strStr()
 	◦	 Group words that are anagrams.
