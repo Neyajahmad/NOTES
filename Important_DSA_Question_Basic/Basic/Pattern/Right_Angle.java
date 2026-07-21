@@ -1,3 +1,5 @@
+// Right Angle Triangle
+
 package Pattern;
 
 public class Right_Angle {
