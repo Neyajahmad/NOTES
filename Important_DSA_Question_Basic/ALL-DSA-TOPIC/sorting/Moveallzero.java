@@ -1,3 +1,4 @@
+package sorting;
 // inp: 0 5 0 3 42
 // out: 5 3 42 0 0
 public class Moveallzero {

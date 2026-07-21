@@ -1,4 +1,4 @@
-package Pattern;
+package Pattern_Printing;
 
 public class Inverted_Pyramid {
     public static void main(String[] args) {

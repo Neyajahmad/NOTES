@@ -1,4 +1,4 @@
-package Pattern;
+package Pattern_Printing;
 
 public class Inverted_Right_Triangle {
     public static void main(String args[]){

@@ -1,6 +1,6 @@
 // Right Angle Triangle
 
-package Pattern;
+package Pattern_Printing;
 
 public class Right_Angle {
     public static void main(String[] args) {

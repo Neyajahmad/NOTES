@@ -1,4 +1,4 @@
-package Pattern;
+package Pattern_Printing;
 
 // logic is same but we do spacing 2 time only for perfect output.
 public class Full_Pyramid {

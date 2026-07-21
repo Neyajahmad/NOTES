@@ -1,4 +1,4 @@
-package Pattern;
+package Pattern_Printing;
 
 public class Pyramid {
     public static void main(String[] args) {
