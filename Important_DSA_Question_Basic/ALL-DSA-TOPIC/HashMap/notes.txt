@@ -1,0 +1,6 @@
+Hashmap is a Data Structure :--> key value mapping kai pair mai rakhta hai..
+when we need to matching particular things like price of different speaker..
+
+----------------------------------------------------------------------------------------
+Searching , insertion , Deletion , contains. :--> this things possible in O(1) time 
+in Hashmap.

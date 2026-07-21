@@ -1,0 +1,9 @@
+// Map interface 
+key value pair store hota hai..
+1->neyaj 
+2->riya
+
+key :-- any data type (unique)
+value :--- any data type
+
+Map interface :--> Hashmap ;--> unordered , linkedhashmap :--> order , sortMap :-> Tree Map :--> sorted.

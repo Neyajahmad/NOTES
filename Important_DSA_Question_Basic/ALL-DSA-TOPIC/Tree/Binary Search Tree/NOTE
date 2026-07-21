@@ -1,0 +1,47 @@
+   // left node deletion method leaf node
+
+    // private static void delete(Node root,int target){
+    //    if(root==null) return;
+    //    if(root.val>target){ // go left
+    //     if(root.left==null) return;
+    //     if(root.left.val==target) root.left=null;
+    //     else delete(root.left, target);
+    //    }
+    //    else{ // go right
+    //     if(root.right==null) return;
+    //     if(root.right.val==target) root.right=null;
+    //     else delete(root.right, target);
+    //    }
+    // }
+
+
+
+ // left node deletion method one child
+    //   private static void delete(Node root,int target){
+    //    if(root==null) return;
+    //    if(root.val>target){ // go left
+    //     if(root.left==null) return;
+    //     if(root.left.val==target){
+    //         Node l=root.left; //l is that node that i wish to delete
+    //         if(l.left==null && l.right==null) root.left=null; // 0 children
+    //         else if(l.left==null || l.right==null){ //1 child
+    //             if(l.left!=null) root.left=l.left;
+    //             else root.left=l.right;
+    //         }
+    //     }
+    //     else delete(root.left, target);
+    //    }
+
+    //    else{ // go right
+    //     if(root.right==null) return;
+    //     if(root.right.val==target) {
+    //         Node r=root.right; // r is that node we will delete
+    //         if(r.left==null && r.right==null) root.right=null;
+    //         else if(r.left==null || r.right==null){ // 1 child
+    //             if(r.left!=null) root.right=r.left;
+    //             else root.right=r.right;
+    //         }
+    //     }
+    //     else delete(root.right, target);
+    //    }
+    // }
